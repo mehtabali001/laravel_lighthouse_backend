@@ -11,18 +11,26 @@ GOOGLE_REDIRECT_URI=http://localhost:8000/auth/callback
 Edit this in .env file as per your need:
 
 APP_URL=http://localhost:8000
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=lighthouse
+
 DB_USERNAME=
+
 DB_PASSWORD=
 
 
 Run:
 
 npm install
+
 php artisan migrate
+
 php artisan serve
 
 
