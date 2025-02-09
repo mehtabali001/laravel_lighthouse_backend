@@ -8,7 +8,7 @@ GOOGLE_CLIENT_ID=653246850784-pmophq77uh3ng0sg4jg3hf7bkjfpftjo.apps.googleuserco
 GOOGLE_CLIENT_SECRET=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
 GOOGLE_REDIRECT_URI=http://localhost:8000/auth/callback
 
-Edit this in .env file as per your need:
+## Edit this in .env file as per your need:
 
 APP_URL=http://localhost:8000
 
@@ -25,7 +25,7 @@ DB_USERNAME=
 DB_PASSWORD=
 
 
-Run:
+## Run:
 
 npm install
 
